@@ -26,7 +26,7 @@ async function initTables() {
         
         console.log('Tabelas prontas!');
     } catch (error) {
-        console.error('❌ Erro ao criar tabelas:', error.message);
+        console.error('Erro ao criar tabelas:', error.message);
     }
 }
 
